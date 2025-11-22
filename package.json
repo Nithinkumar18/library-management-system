@@ -1,0 +1,33 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "This is an library management system which has two types of users namely admin and members, admin is responsible for handling all the operations where members can borrow books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithinkumar18/library-management-system.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithinkumar18/library-management-system/issues"
+  },
+  "homepage": "https://github.com/Nithinkumar18/library-management-system#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.1",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
